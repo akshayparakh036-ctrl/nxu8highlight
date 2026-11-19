@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Nexus Opportunities Highlighters
 // @namespace    temp-highlighter
-// @version      5.0
+// @version      5.4
 // @description  Highlight whole rows that match name + type rules
 // @author       Akshay(akparaks)
 // @match        *://scheduling.amazon.com/*
