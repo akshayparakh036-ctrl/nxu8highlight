@@ -14,24 +14,16 @@
 (function () {
   'use strict';
 
-  // ================= EDIT HERE =================
-  // names = any one of these must be in the row
-  // types = any one of these must ALSO be in the row (use [] to ignore)
-  // color = any CSS colour
   const RULES = [
     { names: ['NEXUS_TAYLOR', 'FC_OUTBOUND', 'FC_INBOUND'], types: ['VET', 'VTO'], color: 'pink' },
-    // { names: ['ANOTHER_NAME', 'THIRD_NAME'], types: ['VTO'], color: '#ffd54f' },
-    // { names: ['SOME_NAME'], types: [], color: '#80deea' },
+
   ];
-  // =============================================
+ 
 
   const FLAG = 'data-nexus-hl';
   const esc = w => w.trim()
     .replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-    .replace(/[_ ]+/g, '[_ ]+');          // space and underscore are interchangeable
-
-  // Names: plain match (same as the console test that worked)
-  // Types: whole word, so VET/VTO don't match inside other words
+    .replace(/[_ ]+/g, '[_ ]+');         
   const compiled = RULES.map(r => ({
     name: new RegExp(r.names.map(esc).join('|'), 'i'),
     type: r.types && r.types.length
