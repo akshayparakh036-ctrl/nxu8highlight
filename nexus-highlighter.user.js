@@ -19,7 +19,7 @@
   // types = any one of these must ALSO be in the row (use [] to ignore)
   // color = any CSS colour
   const RULES = [
-    { names: ['NEXUS_TAYLOR', 'FC_OUTBOUND', 'FC_INBOUND'], types: ['VET', 'VTO'], color: 'orange' },
+    { names: ['NEXUS_TAYLOR', 'FC_OUTBOUND', 'FC_INBOUND'], types: ['VET', 'VTO'], color: 'pink' },
     // { names: ['ANOTHER_NAME', 'THIRD_NAME'], types: ['VTO'], color: '#ffd54f' },
     // { names: ['SOME_NAME'], types: [], color: '#80deea' },
   ];
