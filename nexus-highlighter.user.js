@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Nexus Opportunities Highlighters
 // @namespace    temp-highlighter
-// @version      5.10
+// @version      5.16
 // @description  Highlight whole rows that match name + type rules
 // @author       Akshay(akparaks)
 // @match        *://scheduling.amazon.com/*
-// @updateURL    https://raw.githubusercontent.com/akshayparakh036-ctrl/nxu8highlight/refs/heads/main/nexus-highlighter.user.js?v=5.6
-// @downloadURL  https://raw.githubusercontent.com/akshayparakh036-ctrl/nxu8highlight/refs/heads/main/nexus-highlighter.user.js?v=5.6
+// @updateURL    https://raw.githubusercontent.com/akshayparakh036-ctrl/nxu8highlight/refs/heads/main/nexus-highlighter.user.js?v=5.16
+// @downloadURL  https://raw.githubusercontent.com/akshayparakh036-ctrl/nxu8highlight/refs/heads/main/nexus-highlighter.user.js?v=5.16
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
