@@ -5,8 +5,8 @@
 // @description  Highlight whole rows that match name + type rules
 // @author       Akshay(akparaks)
 // @match        *://scheduling.amazon.com/*
-// @updateURL    https://raw.githubusercontent.com/akshayparakh036-ctrl/nxu8highlight/refs/heads/main/nexus-highlighter.user.js
-// @downloadURL  https://raw.githubusercontent.com/akshayparakh036-ctrl/nxu8highlight/refs/heads/main/nexus-highlighter.user.js
+// @updateURL    https://raw.githubusercontent.com/akshayparakh036-ctrl/nxu8highlight/refs/heads/main/nexus-highlighter.user.js?v=5.6
+// @downloadURL  https://raw.githubusercontent.com/akshayparakh036-ctrl/nxu8highlight/refs/heads/main/nexus-highlighter.user.js?v=5.6
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
