@@ -15,7 +15,7 @@
   'use strict';
 
   const RULES = [
-    { names: ['NEXUS_TAYLOR', 'FC_OUTBOUND', 'FC_INBOUND'], types: ['VET', 'VTO'], color: 'pink' },
+    { names: ['NEXUS_TAYLOR', 'FC_OUTBOUND', 'FC_INBOUND', 'FC_ICQA'], types: ['VET', 'VTO'], color: 'pink' },
 
   ];
  
